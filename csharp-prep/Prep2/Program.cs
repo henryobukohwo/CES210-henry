@@ -13,16 +13,8 @@ class Program
             int percentage = int.Parse(userAnswer);
 
             string letter = "";
-            
-            if ( percentage >= 100)
-            {
-                letter = "A+"
-            }
-            else if (percentage >= 95)
-            {
-                letter = "A-"
-            }
-            else if (percentage >= 90)
+
+            if (percentage >= 90)
             {
                 letter = "A";
 
