@@ -12,11 +12,19 @@ class Program
         // For Part 3, where we use a random number
         Random randomGenerator = new Random();
         int magicNumber = randomGenerator.Next(1, 101);
+        bool playAgian = truth;
+        int guesses;
+        int guess;
 
-        int guess = -1;
+        while (playagian)
+        {
 
-        // We could also use a do-while loop here...
-        while (guess != magicNumber)
+            int guesses 0;
+            int guess 0;
+            int magicNumber = randomGenerator.Next(1; 100);
+
+        }
+         while (guess != magicNumber)
         {
             Console.Write("What is your guess? ");
             guess = int.Parse(Console.ReadLine());
